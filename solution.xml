@@ -1,0 +1,1293 @@
+<ns0:ClinicalDocument xmlns:ns0="urn:hl7-org:v3" xmlns:ns1="http://www.w3.org/2001/XDarrenLSchema-instance">
+    <ns0:realmCode code="US" />
+    <ns0:typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+    <ns0:templateId root="2.16.840.1.113883.10.20.22.1.1" />
+    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.1" />
+    <ns0:templateId root="2.16.840.1.113883.10.20.22.1.2" />
+    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.2" />
+    <ns0:id assigningAuthorityName="eClinicalWorks" extension="e4ea950f-6616-44ab-b472-ffd629af4b11" root="2.16.840.1.113883.4.391" />
+    <ns0:code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SUDarrenDarrenARIZATION OF EPISODE NOTE" />
+    <ns0:title>Patient Health Record</ns0:title>
+    <ns0:effectiveTime value="20190314010305+0000" />
+    <ns0:confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
+    <ns0:languageCode code="en-US" />
+    <ns0:setId assigningAuthorityName="ECW" extension="01af8b47-05a8-4b35-8efb-3844629e7b14" root="2.16.840.1.113883.4.391" />
+    <ns0:versionNumber value="310" />
+    <ns0:recordTarget>
+        <ns0:patientRole classCode="PAT">
+            <ns0:id assigningAuthorityName="Angelvale Darrenedical Center" extension="00018" root="2.16.840.1.113883.4.391.302724" />
+            <ns0:id assigningAuthorityName="Angelvale Darrenedical Center ACC NO" extension="00018" root="2.16.840.1.113883.4.391.302724.1" />
+            <ns0:addr use="PST">
+                <ns0:city>address</ns0:city>
+                <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                <ns0:state>address</ns0:state>
+                <ns0:country>address</ns0:country>
+                <ns0:postalCode>address</ns0:postalCode>
+            </ns0:addr>
+            <ns0:telecom use="HP" value="202-555-0131" />
+            <ns0:patient>
+                <ns0:name>
+                    <ns0:family>patient family name</ns0:family>
+                    <ns0:given>patient name</ns0:given>
+                    <ns0:given>patient name</ns0:given>
+                </ns0:name>
+                <ns0:administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" />
+                <ns0:birthTime value="19781221" />
+                <ns0:raceCode nullFlavor="NI" />
+                <ns0:ethnicGroupCode nullFlavor="NI" />
+                <ns0:languageCommunication>
+                    <ns0:languageCode code="en" />
+                    <ns0:preferenceInd value="false" />
+                </ns0:languageCommunication>
+            </ns0:patient>
+        </ns0:patientRole>
+    </ns0:recordTarget>
+    <ns0:author>
+        <ns0:time value="20190313" />
+        <ns0:assignedAuthor>
+            <ns0:id extension="V3.0" root="2.16.840.1.113883.4.391" />
+            <ns0:addr nullFlavor="NA" />
+            <ns0:telecom nullFlavor="NA" value="202-555-0131" />
+            <ns0:assignedAuthoringDevice>
+                <ns0:manufacturerDarrenodelName>eClinicalWorks CCDA V3.0</ns0:manufacturerDarrenodelName>
+                <ns0:softwareName>eClinicalWorks</ns0:softwareName>
+            </ns0:assignedAuthoringDevice>
+            <ns0:representedOrganization>
+                <ns0:id root="2.16.840.1.113883.4.391.302724" />
+                <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                <ns0:telecom value="202-555-0131" />
+                <ns0:addr>
+                    <ns0:city>address</ns0:city>
+                    <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                    <ns0:state>address</ns0:state>
+                    <ns0:country>address</ns0:country>
+                    <ns0:postalCode>address</ns0:postalCode>
+                </ns0:addr>
+            </ns0:representedOrganization>
+        </ns0:assignedAuthor>
+    </ns0:author>
+    <ns0:custodian>
+        <ns0:assignedCustodian>
+            <ns0:representedCustodianOrganization>
+                <ns0:id extension="302724" root="2.16.840.1.113883.4.391" />
+                <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                <ns0:telecom value="202-555-0131" />
+                <ns0:addr>
+                    <ns0:city>address</ns0:city>
+                    <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                    <ns0:state>address</ns0:state>
+                    <ns0:country>address</ns0:country>
+                    <ns0:postalCode>address</ns0:postalCode>
+                </ns0:addr>
+            </ns0:representedCustodianOrganization>
+        </ns0:assignedCustodian>
+    </ns0:custodian>
+    <ns0:informationRecipient>
+        <ns0:intendedRecipient>
+            <ns0:informationRecipient>
+                <ns0:name nullFlavor="UNK" />
+            </ns0:informationRecipient>
+            <ns0:receivedOrganization>
+                <ns0:name nullFlavor="UNK" />
+                <ns0:addr nullFlavor="UNK" />
+            </ns0:receivedOrganization>
+        </ns0:intendedRecipient>
+    </ns0:informationRecipient>
+    <ns0:participant typeCode="IND">
+        <ns0:associatedEntity classCode="GUAR">
+            <ns0:addr>
+                <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                <ns0:city>address</ns0:city>
+                <ns0:state>address</ns0:state>
+                <ns0:postalCode>address</ns0:postalCode>
+                <ns0:country>address</ns0:country>
+            </ns0:addr>
+            <ns0:telecom value="202-555-0131" />
+            <ns0:associatedPerson>
+                <ns0:name>
+                    <ns0:given>John</ns0:given>
+                    <ns0:family>Doe</ns0:family>
+                </ns0:name>
+            </ns0:associatedPerson>
+        </ns0:associatedEntity>
+    </ns0:participant>
+    <ns0:documentationOf>
+        <ns0:serviceEvent classCode="PCPR">
+            <ns0:effectiveTime>
+                <ns0:low value="19760615" />
+                <ns0:high value="20190313" />
+            </ns0:effectiveTime>
+            <ns0:performer typeCode="PRF">
+                <ns0:assignedEntity>
+                    <ns0:id nullFlavor="NI" />
+                    <ns0:addr>
+                        <ns0:postalCode nullFlavor="UNK">address</ns0:postalCode>
+                    </ns0:addr>
+                    <ns0:telecom nullFlavor="NI" value="202-555-0131" />
+                    <ns0:assignedPerson>
+                        <ns0:name>
+                            <ns0:family>Doe</ns0:family>
+                            <ns0:given>John</ns0:given>
+                        </ns0:name>
+                    </ns0:assignedPerson>
+                </ns0:assignedEntity>
+            </ns0:performer>
+        </ns0:serviceEvent>
+    </ns0:documentationOf>
+    <ns0:component>
+        <ns0:structuredBody>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.5.1" />
+                    <ns0:code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROBLEDarren LIST" />
+                    <ns0:title>PROBLEDarrenS</ns0:title>
+                    <ns0:text>
+                        <ns0:table border="1" width="100%">
+                            <ns0:thead>
+                                <ns0:tr>
+                                    <ns0:th>Type </ns0:th>
+                                    <ns0:th>Condition </ns0:th>
+                                    <ns0:th>ICD9-CDarren Code </ns0:th>
+                                    <ns0:th>ICD10-CDarren Code </ns0:th>
+                                    <ns0:th>Onset Dates </ns0:th>
+                                    <ns0:th>Condition Status </ns0:th>
+                                    <ns0:th>SNODarrenED Code </ns0:th>
+                                    <ns0:th>Notes </ns0:th>
+                                </ns0:tr>
+                            </ns0:thead>
+                            <ns0:tbody>
+                                <ns0:tr>
+                                    <ns0:td>migrated </ns0:td>
+                                    <ns0:td ID="problem2">Darrenigraine without aura, without mention of intractable migraine without mention of status migrainosus </ns0:td>
+                                    <ns0:td>346.10 </ns0:td>
+                                    <ns0:td />
+                                    <ns0:td />
+                                    <ns0:td>Active </ns0:td>
+                                    <ns0:td>425007008 </ns0:td>
+                                    <ns0:td>(DarrenigDS) </ns0:td>
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>migrated </ns0:td>
+                                    <ns0:td ID="problem1">Cervicalgia </ns0:td>
+                                    <ns0:td>723.1 </ns0:td>
+                                    <ns0:td />
+                                    <ns0:td />
+                                    <ns0:td>Active </ns0:td>
+                                    <ns0:td>81680005 </ns0:td>
+                                    <ns0:td>(DarrenigDS) </ns0:td>
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>Problem </ns0:td>
+                                    <ns0:td ID="problem3" />
+                                    <ns0:td />
+                                    <ns0:td />
+                                    <ns0:td />
+                                    <ns0:td>Active </ns0:td>
+                                    <ns0:td />
+                                    <ns0:td />
+                                </ns0:tr>
+                            </ns0:tbody>
+                        </ns0:table>
+                    </ns0:text>
+                    <ns0:entry>
+                        <ns0:act classCode="ACT" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                            <ns0:id extension="735b1c10-dbe8-496a-bc37-cf3b0e95d8e2" root="2.16.840.1.113883.4.391" />
+                            <ns0:code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+                            <ns0:statusCode code="active" />
+                            <ns0:effectiveTime>
+                                <ns0:low value="20050131" />
+                                <ns0:high nullFlavor="UNK" />
+                            </ns0:effectiveTime>
+                            <ns0:entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <ns0:observation classCode="OBS" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <ns0:id extension="47024" root="2.16.840.1.113883.4.391.302724.3" />
+                                    <ns0:code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Problem">
+                                        <ns0:translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem" />
+                                    </ns0:code>
+                                    <ns0:text>
+                                        <ns0:reference value="#problem2" />
+                                    </ns0:text>
+                                    <ns0:statusCode code="completed" />
+                                    <ns0:effectiveTime>
+                                        <ns0:low nullFlavor="NI" />
+                                    </ns0:effectiveTime>
+                                    <ns0:value code="425007008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Darrenigraine without aura, not refractory" ns1:type="CD">
+                                        <ns0:translation code="346.10" codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD9-CDarren" displayName="Darrenigraine without aura, without mention of intractable migraine without mention of status migrainosus" />
+                                    </ns0:value>
+                                    <ns0:entryRelationship typeCode="REFR">
+                                        <ns0:observation classCode="OBS" moodCode="EVN">
+                                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.6" />
+                                            <ns0:code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="STATUS" />
+                                            <ns0:statusCode code="completed" />
+                                            <ns0:value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Active" ns1:type="CD" />
+                                        </ns0:observation>
+                                    </ns0:entryRelationship>
+                                </ns0:observation>
+                            </ns0:entryRelationship>
+                        </ns0:act>
+                    </ns0:entry>
+                    <ns0:entry>
+                        <ns0:act classCode="ACT" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                            <ns0:id extension="a577890d-9920-44ed-ad86-8816b4ff4fff" root="2.16.840.1.113883.4.391" />
+                            <ns0:code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+                            <ns0:statusCode code="active" />
+                            <ns0:effectiveTime>
+                                <ns0:low value="20050221" />
+                                <ns0:high nullFlavor="UNK" />
+                            </ns0:effectiveTime>
+                            <ns0:entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <ns0:observation classCode="OBS" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <ns0:id extension="47023" root="2.16.840.1.113883.4.391.302724.2" />
+                                    <ns0:code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Problem">
+                                        <ns0:translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem" />
+                                    </ns0:code>
+                                    <ns0:text>
+                                        <ns0:reference value="#problem1" />
+                                    </ns0:text>
+                                    <ns0:statusCode code="completed" />
+                                    <ns0:effectiveTime>
+                                        <ns0:low nullFlavor="NI" />
+                                    </ns0:effectiveTime>
+                                    <ns0:value code="81680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Cervicalgia" ns1:type="CD">
+                                        <ns0:translation code="723.1" codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD9-CDarren" displayName="Cervicalgia" />
+                                    </ns0:value>
+                                    <ns0:entryRelationship typeCode="REFR">
+                                        <ns0:observation classCode="OBS" moodCode="EVN">
+                                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.6" />
+                                            <ns0:code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="STATUS" />
+                                            <ns0:statusCode code="completed" />
+                                            <ns0:value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Active" ns1:type="CD" />
+                                        </ns0:observation>
+                                    </ns0:entryRelationship>
+                                </ns0:observation>
+                            </ns0:entryRelationship>
+                        </ns0:act>
+                    </ns0:entry>
+                    <ns0:entry>
+                        <ns0:act classCode="ACT" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                            <ns0:id extension="a6692d3b-b010-47c5-8f68-f3aed2ebde1a" root="2.16.840.1.113883.4.391" />
+                            <ns0:code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+                            <ns0:statusCode code="active" />
+                            <ns0:effectiveTime>
+                                <ns0:low nullFlavor="UNK" />
+                            </ns0:effectiveTime>
+                            <ns0:entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <ns0:observation classCode="OBS" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <ns0:id extension="0f49df52-7930-408b-a108-547c5249cd1d" root="2.16.840.1.113883.4.391.302724.4" />
+                                    <ns0:code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Problem">
+                                        <ns0:translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem" />
+                                    </ns0:code>
+                                    <ns0:text>
+                                        <ns0:reference value="#problem3" />
+                                    </ns0:text>
+                                    <ns0:statusCode code="completed" />
+                                    <ns0:effectiveTime>
+                                        <ns0:low nullFlavor="NI" />
+                                    </ns0:effectiveTime>
+                                    <ns0:value nullFlavor="OTH" ns1:type="CD">
+                                        <ns0:translation code="UNK" codeSystem="UNK" codeSystemName="UNK" displayName="UNK" nullFlavor="UNK" />
+                                    </ns0:value>
+                                    <ns0:entryRelationship typeCode="REFR">
+                                        <ns0:observation classCode="OBS" moodCode="EVN">
+                                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.6" />
+                                            <ns0:code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="STATUS" />
+                                            <ns0:statusCode code="completed" />
+                                            <ns0:value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Active" ns1:type="CD" />
+                                        </ns0:observation>
+                                    </ns0:entryRelationship>
+                                </ns0:observation>
+                            </ns0:entryRelationship>
+                        </ns0:act>
+                    </ns0:entry>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.6" />
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.6.1" />
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.6" />
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.6.1" />
+                    <ns0:code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts" />
+                    <ns0:title>ALLERGIES</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.22.1" />
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.22.1" />
+                    <ns0:code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                    <ns0:title>ENCOUNTERS from 1976-06-15 to 2019-03-13</ns0:title>
+                    <ns0:text>
+                        <ns0:table border="1" width="100%">
+                            <ns0:thead>
+                                <ns0:tr>
+                                    <ns0:th>Encounter </ns0:th>
+                                    <ns0:th>Location </ns0:th>
+                                    <ns0:th>Date </ns0:th>
+                                    <ns0:th>Darren </ns0:th>
+                                    <ns0:th>Diagnosis </ns0:th>
+                                </ns0:tr>
+                            </ns0:thead>
+                            <ns0:tbody>
+                                <ns0:tr>
+                                    <ns0:td>Angelvale Darrenedical Center </ns0:td>
+                                    <ns0:td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </ns0:td>
+                                    <ns0:td>18 Dec, 2015 </ns0:td>
+                                    <ns0:td>Darren May </ns0:td>
+                                    <ns0:td />
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>Angelvale Darrenedical Center </ns0:td>
+                                    <ns0:td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </ns0:td>
+                                    <ns0:td>17 Dec, 2015 </ns0:td>
+                                    <ns0:td>Darren May </ns0:td>
+                                    <ns0:td />
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>Angelvale Darrenedical Center </ns0:td>
+                                    <ns0:td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </ns0:td>
+                                    <ns0:td>07 Darrenar, 2005 </ns0:td>
+                                    <ns0:td>Darren May </ns0:td>
+                                    <ns0:td />
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>Angelvale Darrenedical Center </ns0:td>
+                                    <ns0:td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </ns0:td>
+                                    <ns0:td>07 Darrenar, 2005 </ns0:td>
+                                    <ns0:td>Darren May </ns0:td>
+                                    <ns0:td />
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>Angelvale Darrenedical Center </ns0:td>
+                                    <ns0:td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </ns0:td>
+                                    <ns0:td>21 Feb, 2005 </ns0:td>
+                                    <ns0:td>Darren May </ns0:td>
+                                    <ns0:td />
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>Angelvale Darrenedical Center </ns0:td>
+                                    <ns0:td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </ns0:td>
+                                    <ns0:td>21 Feb, 2005 </ns0:td>
+                                    <ns0:td>Darren May </ns0:td>
+                                    <ns0:td>Cervicalgia 723.1 </ns0:td>
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>Angelvale Darrenedical Center </ns0:td>
+                                    <ns0:td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </ns0:td>
+                                    <ns0:td>31 Jan, 2005 </ns0:td>
+                                    <ns0:td>Darren May </ns0:td>
+                                    <ns0:td />
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td>Angelvale Darrenedical Center </ns0:td>
+                                    <ns0:td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </ns0:td>
+                                    <ns0:td>31 Jan, 2005 </ns0:td>
+                                    <ns0:td>Darren May </ns0:td>
+                                    <ns0:td>Darrenigraine without aura, without mention of intractable migraine without mention of status migrainosus 346.10 </ns0:td>
+                                </ns0:tr>
+                            </ns0:tbody>
+                        </ns0:table>
+                    </ns0:text>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:encounter classCode="ENC" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:id extension="242858" root="2.16.840.1.113883.4.391.302724" />
+                            <ns0:code nullFlavor="NI">
+                                <ns0:translation nullFlavor="NI" />
+                            </ns0:code>
+                            <ns0:effectiveTime value="20151218" />
+                            <ns0:performer>
+                                <ns0:assignedEntity>
+                                    <ns0:id nullFlavor="UNK" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:given>John</ns0:given>
+                                            <ns0:family>Doe</ns0:family>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedEntity>
+                            </ns0:performer>
+                            <ns0:participant typeCode="LOC">
+                                <ns0:participantRole classCode="SDLOC">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <ns0:code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <ns0:addr>
+                                        <ns0:city>address</ns0:city>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:state>address</ns0:state>
+                                        <ns0:country>address</ns0:country>
+                                        <ns0:postalCode>address</ns0:postalCode>
+                                    </ns0:addr>
+                                    <ns0:telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <ns0:playingEntity classCode="PLC">
+                                        <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                                    </ns0:playingEntity>
+                                </ns0:participantRole>
+                            </ns0:participant>
+                        </ns0:encounter>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:encounter classCode="ENC" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:id extension="242888" root="2.16.840.1.113883.4.391.302724" />
+                            <ns0:code nullFlavor="NI">
+                                <ns0:translation nullFlavor="NI" />
+                            </ns0:code>
+                            <ns0:effectiveTime value="20151217" />
+                            <ns0:performer>
+                                <ns0:assignedEntity>
+                                    <ns0:id nullFlavor="UNK" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:given>John</ns0:given>
+                                            <ns0:family>Doe</ns0:family>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedEntity>
+                            </ns0:performer>
+                            <ns0:participant typeCode="LOC">
+                                <ns0:participantRole classCode="SDLOC">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <ns0:code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <ns0:addr>
+                                        <ns0:city>address</ns0:city>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:state>address</ns0:state>
+                                        <ns0:country>address</ns0:country>
+                                        <ns0:postalCode>address</ns0:postalCode>
+                                    </ns0:addr>
+                                    <ns0:telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <ns0:playingEntity classCode="PLC">
+                                        <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                                    </ns0:playingEntity>
+                                </ns0:participantRole>
+                            </ns0:participant>
+                        </ns0:encounter>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:encounter classCode="ENC" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:id extension="148991" root="2.16.840.1.113883.4.391.302724" />
+                            <ns0:code nullFlavor="NI">
+                                <ns0:translation nullFlavor="NI" />
+                            </ns0:code>
+                            <ns0:effectiveTime value="20050307" />
+                            <ns0:performer>
+                                <ns0:assignedEntity>
+                                    <ns0:id nullFlavor="UNK" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:given>John</ns0:given>
+                                            <ns0:family>Doe</ns0:family>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedEntity>
+                            </ns0:performer>
+                            <ns0:participant typeCode="LOC">
+                                <ns0:participantRole classCode="SDLOC">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <ns0:code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <ns0:addr>
+                                        <ns0:city>address</ns0:city>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:state>address</ns0:state>
+                                        <ns0:country>address</ns0:country>
+                                        <ns0:postalCode>address</ns0:postalCode>
+                                    </ns0:addr>
+                                    <ns0:telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <ns0:playingEntity classCode="PLC">
+                                        <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                                    </ns0:playingEntity>
+                                </ns0:participantRole>
+                            </ns0:participant>
+                        </ns0:encounter>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:encounter classCode="ENC" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:id extension="262358" root="2.16.840.1.113883.4.391.302724" />
+                            <ns0:code nullFlavor="NI">
+                                <ns0:translation nullFlavor="NI" />
+                            </ns0:code>
+                            <ns0:effectiveTime value="20050307" />
+                            <ns0:performer>
+                                <ns0:assignedEntity>
+                                    <ns0:id nullFlavor="UNK" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:given>John</ns0:given>
+                                            <ns0:family>Doe</ns0:family>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedEntity>
+                            </ns0:performer>
+                            <ns0:participant typeCode="LOC">
+                                <ns0:participantRole classCode="SDLOC">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <ns0:code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <ns0:addr>
+                                        <ns0:city>address</ns0:city>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:state>address</ns0:state>
+                                        <ns0:country>address</ns0:country>
+                                        <ns0:postalCode>address</ns0:postalCode>
+                                    </ns0:addr>
+                                    <ns0:telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <ns0:playingEntity classCode="PLC">
+                                        <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                                    </ns0:playingEntity>
+                                </ns0:participantRole>
+                            </ns0:participant>
+                        </ns0:encounter>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:encounter classCode="ENC" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:id extension="148513" root="2.16.840.1.113883.4.391.302724" />
+                            <ns0:code nullFlavor="NI">
+                                <ns0:translation nullFlavor="NI" />
+                            </ns0:code>
+                            <ns0:effectiveTime value="20050221" />
+                            <ns0:performer>
+                                <ns0:assignedEntity>
+                                    <ns0:id nullFlavor="UNK" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:given>John</ns0:given>
+                                            <ns0:family>Doe</ns0:family>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedEntity>
+                            </ns0:performer>
+                            <ns0:participant typeCode="LOC">
+                                <ns0:participantRole classCode="SDLOC">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <ns0:code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <ns0:addr>
+                                        <ns0:city>address</ns0:city>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:state>address</ns0:state>
+                                        <ns0:country>address</ns0:country>
+                                        <ns0:postalCode>address</ns0:postalCode>
+                                    </ns0:addr>
+                                    <ns0:telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <ns0:playingEntity classCode="PLC">
+                                        <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                                    </ns0:playingEntity>
+                                </ns0:participantRole>
+                            </ns0:participant>
+                        </ns0:encounter>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:encounter classCode="ENC" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:id extension="243638" root="2.16.840.1.113883.4.391.302724" />
+                            <ns0:code nullFlavor="NI">
+                                <ns0:translation nullFlavor="NI" />
+                            </ns0:code>
+                            <ns0:effectiveTime value="20050221" />
+                            <ns0:performer>
+                                <ns0:assignedEntity>
+                                    <ns0:id nullFlavor="UNK" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:given>John</ns0:given>
+                                            <ns0:family>Doe</ns0:family>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedEntity>
+                            </ns0:performer>
+                            <ns0:participant typeCode="LOC">
+                                <ns0:participantRole classCode="SDLOC">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <ns0:code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <ns0:addr>
+                                        <ns0:city>address</ns0:city>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:state>address</ns0:state>
+                                        <ns0:country>address</ns0:country>
+                                        <ns0:postalCode>address</ns0:postalCode>
+                                    </ns0:addr>
+                                    <ns0:telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <ns0:playingEntity classCode="PLC">
+                                        <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                                    </ns0:playingEntity>
+                                </ns0:participantRole>
+                            </ns0:participant>
+                            <ns0:entryRelationship typeCode="CODarrenP">
+                                <ns0:act classCode="ACT" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.80" />
+                                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80" />
+                                    <ns0:code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                                    <ns0:entryRelationship typeCode="SUBJ">
+                                        <ns0:observation classCode="OBS" moodCode="EVN">
+                                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                            <ns0:id root="5F26E12A-8BFF-41A9-B27A-7E25492BF2C5" />
+                                            <ns0:code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Diagnosis">
+                                                <ns0:translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                                            </ns0:code>
+                                            <ns0:statusCode code="completed" />
+                                            <ns0:effectiveTime>
+                                                <ns0:low value="20050221" />
+                                                <ns0:high value="20050221" />
+                                            </ns0:effectiveTime>
+                                            <ns0:value nullFlavor="OTH" ns1:type="CD">
+                                                <ns0:translation code="723.1" codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD9-CDarren" displayName="Cervicalgia 723.1" />
+                                            </ns0:value>
+                                        </ns0:observation>
+                                    </ns0:entryRelationship>
+                                </ns0:act>
+                            </ns0:entryRelationship>
+                        </ns0:encounter>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:encounter classCode="ENC" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:id extension="148704" root="2.16.840.1.113883.4.391.302724" />
+                            <ns0:code nullFlavor="NI">
+                                <ns0:translation nullFlavor="NI" />
+                            </ns0:code>
+                            <ns0:effectiveTime value="20050131" />
+                            <ns0:performer>
+                                <ns0:assignedEntity>
+                                    <ns0:id nullFlavor="UNK" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:given>John</ns0:given>
+                                            <ns0:family>Doe</ns0:family>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedEntity>
+                            </ns0:performer>
+                            <ns0:participant typeCode="LOC">
+                                <ns0:participantRole classCode="SDLOC">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <ns0:code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <ns0:addr>
+                                        <ns0:city>address</ns0:city>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:state>address</ns0:state>
+                                        <ns0:country>address</ns0:country>
+                                        <ns0:postalCode>address</ns0:postalCode>
+                                    </ns0:addr>
+                                    <ns0:telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <ns0:playingEntity classCode="PLC">
+                                        <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                                    </ns0:playingEntity>
+                                </ns0:participantRole>
+                            </ns0:participant>
+                        </ns0:encounter>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:encounter classCode="ENC" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <ns0:id extension="243639" root="2.16.840.1.113883.4.391.302724" />
+                            <ns0:code nullFlavor="NI">
+                                <ns0:translation nullFlavor="NI" />
+                            </ns0:code>
+                            <ns0:effectiveTime value="20050131" />
+                            <ns0:performer>
+                                <ns0:assignedEntity>
+                                    <ns0:id nullFlavor="UNK" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:given>John</ns0:given>
+                                            <ns0:family>Doe</ns0:family>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedEntity>
+                            </ns0:performer>
+                            <ns0:participant typeCode="LOC">
+                                <ns0:participantRole classCode="SDLOC">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <ns0:code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <ns0:addr>
+                                        <ns0:city>address</ns0:city>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:streetAddressLine>address</ns0:streetAddressLine>
+                                        <ns0:state>address</ns0:state>
+                                        <ns0:country>address</ns0:country>
+                                        <ns0:postalCode>address</ns0:postalCode>
+                                    </ns0:addr>
+                                    <ns0:telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <ns0:playingEntity classCode="PLC">
+                                        <ns0:name>Angelvale Darrenedical Center</ns0:name>
+                                    </ns0:playingEntity>
+                                </ns0:participantRole>
+                            </ns0:participant>
+                            <ns0:entryRelationship typeCode="CODarrenP">
+                                <ns0:act classCode="ACT" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.80" />
+                                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80" />
+                                    <ns0:code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                                    <ns0:entryRelationship typeCode="SUBJ">
+                                        <ns0:observation classCode="OBS" moodCode="EVN">
+                                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                            <ns0:id root="73D6D1E3-2C79-4CAD-84F9-37CF26A30F44" />
+                                            <ns0:code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Diagnosis">
+                                                <ns0:translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                                            </ns0:code>
+                                            <ns0:statusCode code="completed" />
+                                            <ns0:effectiveTime>
+                                                <ns0:low value="20050131" />
+                                                <ns0:high value="20050131" />
+                                            </ns0:effectiveTime>
+                                            <ns0:value nullFlavor="OTH" ns1:type="CD">
+                                                <ns0:translation code="346.10" codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD9-CDarren" displayName="Darrenigraine without aura, without mention of intractable migraine without mention of status migrainosus 346.10" />
+                                            </ns0:value>
+                                        </ns0:observation>
+                                    </ns0:entryRelationship>
+                                </ns0:act>
+                            </ns0:entryRelationship>
+                        </ns0:encounter>
+                    </ns0:entry>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.2.1" />
+                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.2.1" />
+                    <ns0:code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations" />
+                    <ns0:title>IDarrenDarrenUNIZATIONS</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.17" />
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.17" />
+                    <ns0:code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SOCIAL HISTORY" />
+                    <ns0:title>SOCIAL HISTORY</ns0:title>
+                    <ns0:text>
+                        <ns0:content>Sex Assigned At Birth:</ns0:content>
+                        <ns0:table border="1" width="100%">
+                            <ns0:thead>
+                                <ns0:tr>
+                                    <ns0:th>Social History Observation </ns0:th>
+                                    <ns0:th>Description </ns0:th>
+                                </ns0:tr>
+                            </ns0:thead>
+                            <ns0:tbody>
+                                <ns0:tr>
+                                    <ns0:td ID="BirthSexInfo">Sex Assigned At Birth </ns0:td>
+                                    <ns0:td>Unknown </ns0:td>
+                                </ns0:tr>
+                            </ns0:tbody>
+                        </ns0:table>
+                    </ns0:text>
+                    <ns0:entry>
+                        <ns0:observation classCode="OBS" moodCode="EVN">
+                            <ns0:templateId extension="2016-06-01" root="2.16.840.1.113883.10.20.22.4.200" />
+                            <ns0:code code="76689-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Sex Assigned At Birth" />
+                            <ns0:text>
+                                <ns0:reference value="#BirthSexInfo" />
+                            </ns0:text>
+                            <ns0:statusCode code="completed" />
+                            <ns0:value nullFlavor="UNK" ns1:type="CD" />
+                        </ns0:observation>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:observation classCode="OBS" moodCode="EVN">
+                            <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.78" />
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.78" />
+                            <ns0:id extension="b3c9f802-3991-45c1-ba82-c98c06a6f876" root="2.16.840.1.113883.4.391" />
+                            <ns0:code code="72166-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Tobacco smoking status NHIS" />
+                            <ns0:statusCode code="completed" />
+                            <ns0:effectiveTime nullFlavor="NI" />
+                            <ns0:value nullFlavor="NI" ns1:type="AD" />
+                        </ns0:observation>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:observation classCode="OBS" moodCode="EVN">
+                            <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.85" />
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.85" />
+                            <ns0:id extension="b3c9f802-3991-45c1-ba82-c98c06a6f876" root="2.16.840.1.113883.4.391" />
+                            <ns0:code code="11367-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Tobacco Use" />
+                            <ns0:statusCode code="completed" />
+                            <ns0:effectiveTime>
+                                <ns0:low nullFlavor="UNK" />
+                            </ns0:effectiveTime>
+                            <ns0:value nullFlavor="NI" ns1:type="AD" />
+                        </ns0:observation>
+                    </ns0:entry>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+                    <ns0:templateId extension="2014-06-09" root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+                    <ns0:code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR REFERRAL" />
+                    <ns0:title>REASON FOR REFERRAL</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.4.1" />
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.4.1" />
+                    <ns0:code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS" />
+                    <ns0:title>VITAL SIGNS from 1976-06-15 to 2019-03-13</ns0:title>
+                    <ns0:text>
+                        <ns0:table border="1" width="100%">
+                            <ns0:tbody>
+                                <ns0:tr>
+                                    <ns0:th ID="vital1">Heart Rate </ns0:th>
+                                    <ns0:td>N/A /min </ns0:td>
+                                    <ns0:td>07 Darrenar, 2005 </ns0:td>
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:th ID="vital2">Weight </ns0:th>
+                                    <ns0:td>N/A lbs </ns0:td>
+                                    <ns0:td>07 Darrenar, 2005 </ns0:td>
+                                </ns0:tr>
+                            </ns0:tbody>
+                        </ns0:table>
+                    </ns0:text>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:organizer classCode="CLUSTER" moodCode="EVN">
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.26" />
+                            <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.26" />
+                            <ns0:id extension="7e0cbf8a-760e-4706-8817-98a0bf1876c7" root="2.16.840.1.113883.4.391" />
+                            <ns0:code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Vital signs">
+                                <ns0:translation code="74728-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital signs, weight, height, head circumference, oximetry, BDarrenI, and BSA panel " />
+                            </ns0:code>
+                            <ns0:statusCode code="completed" />
+                            <ns0:effectiveTime>
+                                <ns0:low value="20050307" />
+                                <ns0:high value="20050307" />
+                            </ns0:effectiveTime>
+                            <ns0:component>
+                                <ns0:observation classCode="OBS" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27" />
+                                    <ns0:id extension="d58f723e-f501-4551-a563-4d27a3877fe6" root="2.16.840.1.113883.4.391" />
+                                    <ns0:code code="8867-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="heart rate" />
+                                    <ns0:text>
+                                        <ns0:reference value="#vital1" />
+                                    </ns0:text>
+                                    <ns0:statusCode code="completed" />
+                                    <ns0:effectiveTime value="20050307090000-0400" />
+                                    <ns0:value unit="/min" ns1:type="PQ" />
+                                </ns0:observation>
+                            </ns0:component>
+                            <ns0:component>
+                                <ns0:observation classCode="OBS" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27" />
+                                    <ns0:id extension="516e0691-992d-4bbc-88a0-9923046c33c2" root="2.16.840.1.113883.4.391" />
+                                    <ns0:code code="29463-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="weight" />
+                                    <ns0:text>
+                                        <ns0:reference value="#vital2" />
+                                    </ns0:text>
+                                    <ns0:statusCode code="completed" />
+                                    <ns0:effectiveTime value="20050307090000-0400" />
+                                    <ns0:value unit="[lb_av]" ns1:type="PQ" />
+                                </ns0:observation>
+                            </ns0:component>
+                        </ns0:organizer>
+                    </ns0:entry>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.1.1" />
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.1.1" />
+                    <ns0:code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of medication use" />
+                    <ns0:title>DarrenEDICATIONS</ns0:title>
+                    <ns0:text>
+                        <ns0:table border="1" width="100%">
+                            <ns0:thead>
+                                <ns0:tr>
+                                    <ns0:th>Darrenedication </ns0:th>
+                                    <ns0:th>SIG (Take, Route, Frequency, Duration) </ns0:th>
+                                    <ns0:th>Start Date </ns0:th>
+                                    <ns0:th>End Date </ns0:th>
+                                    <ns0:th>Status </ns0:th>
+                                </ns0:tr>
+                            </ns0:thead>
+                            <ns0:tbody>
+                                <ns0:tr>
+                                    <ns0:td ID="medication2">Relpax 40mg Tablet Take 1 tab(s) po once at the onset of headache 40mg Tablet </ns0:td>
+                                    <ns0:td ID="instruction2">Take 1 tablet(s) by mouth once at the onset of headache for 30 </ns0:td>
+                                    <ns0:td>31 Jan, 2005 </ns0:td>
+                                    <ns0:td />
+                                    <ns0:td>Active </ns0:td>
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td ID="medication3">Relpax 40mg TabletTake 1 tab(s) po once at the onset of headache#10 (Ten) tablet(s) 40mg Tablet </ns0:td>
+                                    <ns0:td ID="instruction3">Take 1 tablet(s) by mouth once at the onset of headache for 30 </ns0:td>
+                                    <ns0:td>21 Feb, 2005 </ns0:td>
+                                    <ns0:td />
+                                    <ns0:td>Active </ns0:td>
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td ID="medication1">Topamax 25mg Capsules, Sprinkle1 cap(s) po bid#60 (Sixty) capsule(s) 25mg Capsules, Sprinkle </ns0:td>
+                                    <ns0:td ID="instruction1">Take 1 capsule(s) by mouth bid for 30 </ns0:td>
+                                    <ns0:td>21 Feb, 2005 </ns0:td>
+                                    <ns0:td />
+                                    <ns0:td>Active </ns0:td>
+                                </ns0:tr>
+                                <ns0:tr>
+                                    <ns0:td ID="medication4">Propranolol HCl 80mg Capsules, Extended Release 80mg Capsules, Extended Release </ns0:td>
+                                    <ns0:td ID="instruction4" />
+                                    <ns0:td>31 Jan, 2005 </ns0:td>
+                                    <ns0:td />
+                                    <ns0:td>Active </ns0:td>
+                                </ns0:tr>
+                            </ns0:tbody>
+                        </ns0:table>
+                    </ns0:text>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                            <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.16" />
+                            <ns0:id extension="1d547c68-be3b-402c-8df5-421c6d7f3711" root="2.16.840.1.113883.4.391" />
+                            <ns0:text>
+                                <ns0:reference value="#medication2" />
+                            </ns0:text>
+                            <ns0:statusCode code="active" />
+                            <ns0:effectiveTime ns1:type="IVL_TS">
+                                <ns0:low value="20050131" />
+                                <ns0:high nullFlavor="NI" />
+                            </ns0:effectiveTime>
+                            <ns0:effectiveTime institutionSpecified="true" operator="A" ns1:type="PIVL_TS">
+                                <ns0:period nullFlavor="UNK" />
+                            </ns0:effectiveTime>
+                            <ns0:doseQuantity nullFlavor="UNK" />
+                            <ns0:consumable>
+                                <ns0:manufacturedProduct classCode="DarrenANU">
+                                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <ns0:manufacturedDarrenaterial>
+                                        <ns0:code nullFlavor="OTH">
+                                            <ns0:originalText>
+                                                <ns0:reference value="#medication2" />
+Relpax 40mg Tablet Take 1 tab(s) po once at the onset of headache 40mg Tablet</ns0:originalText>
+                                            <ns0:translation code="UNK" codeSystemName="UNK" displayName="UNK" />
+                                        </ns0:code>
+                                    </ns0:manufacturedDarrenaterial>
+                                </ns0:manufacturedProduct>
+                            </ns0:consumable>
+                            <ns0:author>
+                                <ns0:templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                                <ns0:time nullFlavor="NI" />
+                                <ns0:assignedAuthor>
+                                    <ns0:id nullFlavor="NI" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:family>Doe</ns0:family>
+                                            <ns0:given>John</ns0:given>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedAuthor>
+                            </ns0:author>
+                            <ns0:entryRelationship typeCode="CODarrenP">
+                                <ns0:substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.147" />
+                                    <ns0:code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Darrenedication Instructions" />
+                                    <ns0:text>
+                                        <ns0:reference value="#instruction2" />
+                                    </ns0:text>
+                                    <ns0:consumable>
+                                        <ns0:manufacturedProduct>
+                                            <ns0:manufacturedLabeledDrug nullFlavor="NA" />
+                                        </ns0:manufacturedProduct>
+                                    </ns0:consumable>
+                                </ns0:substanceAdministration>
+                            </ns0:entryRelationship>
+                        </ns0:substanceAdministration>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                            <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.16" />
+                            <ns0:id extension="85da008b-c8ed-469c-9f3e-b400352efb24" root="2.16.840.1.113883.4.391" />
+                            <ns0:text>
+                                <ns0:reference value="#medication3" />
+                            </ns0:text>
+                            <ns0:statusCode code="active" />
+                            <ns0:effectiveTime ns1:type="IVL_TS">
+                                <ns0:low value="20050221" />
+                                <ns0:high nullFlavor="NI" />
+                            </ns0:effectiveTime>
+                            <ns0:effectiveTime institutionSpecified="true" operator="A" ns1:type="PIVL_TS">
+                                <ns0:period nullFlavor="UNK" />
+                            </ns0:effectiveTime>
+                            <ns0:doseQuantity nullFlavor="UNK" />
+                            <ns0:consumable>
+                                <ns0:manufacturedProduct classCode="DarrenANU">
+                                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <ns0:manufacturedDarrenaterial>
+                                        <ns0:code nullFlavor="OTH">
+                                            <ns0:originalText>
+                                                <ns0:reference value="#medication3" />
+Relpax 40mg Tablet
+Take 1 tab(s) po once at the onset of headache
+#10 (Ten) tablet(s) 40mg Tablet</ns0:originalText>
+                                            <ns0:translation code="UNK" codeSystemName="UNK" displayName="UNK" />
+                                        </ns0:code>
+                                    </ns0:manufacturedDarrenaterial>
+                                </ns0:manufacturedProduct>
+                            </ns0:consumable>
+                            <ns0:author>
+                                <ns0:templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                                <ns0:time nullFlavor="NI" />
+                                <ns0:assignedAuthor>
+                                    <ns0:id nullFlavor="NI" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:family>Doe</ns0:family>
+                                            <ns0:given>John</ns0:given>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedAuthor>
+                            </ns0:author>
+                            <ns0:entryRelationship typeCode="CODarrenP">
+                                <ns0:substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.147" />
+                                    <ns0:code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Darrenedication Instructions" />
+                                    <ns0:text>
+                                        <ns0:reference value="#instruction3" />
+                                    </ns0:text>
+                                    <ns0:consumable>
+                                        <ns0:manufacturedProduct>
+                                            <ns0:manufacturedLabeledDrug nullFlavor="NA" />
+                                        </ns0:manufacturedProduct>
+                                    </ns0:consumable>
+                                </ns0:substanceAdministration>
+                            </ns0:entryRelationship>
+                        </ns0:substanceAdministration>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                            <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.16" />
+                            <ns0:id extension="9684a23a-74ca-46ac-9665-a99682a49b59" root="2.16.840.1.113883.4.391" />
+                            <ns0:text>
+                                <ns0:reference value="#medication1" />
+                            </ns0:text>
+                            <ns0:statusCode code="active" />
+                            <ns0:effectiveTime ns1:type="IVL_TS">
+                                <ns0:low value="20050221" />
+                                <ns0:high nullFlavor="NI" />
+                            </ns0:effectiveTime>
+                            <ns0:effectiveTime institutionSpecified="true" operator="A" ns1:type="PIVL_TS">
+                                <ns0:period nullFlavor="UNK" />
+                            </ns0:effectiveTime>
+                            <ns0:doseQuantity nullFlavor="UNK" />
+                            <ns0:consumable>
+                                <ns0:manufacturedProduct classCode="DarrenANU">
+                                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <ns0:manufacturedDarrenaterial>
+                                        <ns0:code nullFlavor="OTH">
+                                            <ns0:originalText>
+                                                <ns0:reference value="#medication1" />
+Topamax 25mg Capsules, Sprinkle
+1 cap(s) po bid
+#60 (Sixty) capsule(s) 25mg Capsules, Sprinkle</ns0:originalText>
+                                            <ns0:translation code="UNK" codeSystemName="UNK" displayName="UNK" />
+                                        </ns0:code>
+                                    </ns0:manufacturedDarrenaterial>
+                                </ns0:manufacturedProduct>
+                            </ns0:consumable>
+                            <ns0:author>
+                                <ns0:templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                                <ns0:time nullFlavor="NI" />
+                                <ns0:assignedAuthor>
+                                    <ns0:id nullFlavor="NI" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:family>Doe</ns0:family>
+                                            <ns0:given>John</ns0:given>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedAuthor>
+                            </ns0:author>
+                            <ns0:entryRelationship typeCode="CODarrenP">
+                                <ns0:substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.147" />
+                                    <ns0:code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Darrenedication Instructions" />
+                                    <ns0:text>
+                                        <ns0:reference value="#instruction1" />
+                                    </ns0:text>
+                                    <ns0:consumable>
+                                        <ns0:manufacturedProduct>
+                                            <ns0:manufacturedLabeledDrug nullFlavor="NA" />
+                                        </ns0:manufacturedProduct>
+                                    </ns0:consumable>
+                                </ns0:substanceAdministration>
+                            </ns0:entryRelationship>
+                        </ns0:substanceAdministration>
+                    </ns0:entry>
+                    <ns0:entry typeCode="DRIV">
+                        <ns0:substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                            <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+                            <ns0:templateId root="2.16.840.1.113883.10.20.22.4.16" />
+                            <ns0:id extension="16f3d6d9-73d0-46af-9912-84c6d6da62fc" root="2.16.840.1.113883.4.391" />
+                            <ns0:text>
+                                <ns0:reference value="#medication4" />
+                            </ns0:text>
+                            <ns0:statusCode code="active" />
+                            <ns0:effectiveTime ns1:type="IVL_TS">
+                                <ns0:low value="20050131" />
+                                <ns0:high nullFlavor="NI" />
+                            </ns0:effectiveTime>
+                            <ns0:effectiveTime institutionSpecified="true" operator="A" ns1:type="PIVL_TS">
+                                <ns0:period nullFlavor="UNK" />
+                            </ns0:effectiveTime>
+                            <ns0:doseQuantity nullFlavor="UNK" />
+                            <ns0:consumable>
+                                <ns0:manufacturedProduct classCode="DarrenANU">
+                                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <ns0:templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <ns0:manufacturedDarrenaterial>
+                                        <ns0:code nullFlavor="OTH">
+                                            <ns0:originalText>
+                                                <ns0:reference value="#medication4" />
+Propranolol HCl 80mg Capsules, Extended Release 80mg Capsules, Extended Release</ns0:originalText>
+                                            <ns0:translation code="UNK" codeSystemName="UNK" displayName="UNK" />
+                                        </ns0:code>
+                                    </ns0:manufacturedDarrenaterial>
+                                </ns0:manufacturedProduct>
+                            </ns0:consumable>
+                            <ns0:author>
+                                <ns0:templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                                <ns0:time nullFlavor="NI" />
+                                <ns0:assignedAuthor>
+                                    <ns0:id nullFlavor="NI" />
+                                    <ns0:assignedPerson>
+                                        <ns0:name>
+                                            <ns0:family>Doe</ns0:family>
+                                            <ns0:given>John</ns0:given>
+                                        </ns0:name>
+                                    </ns0:assignedPerson>
+                                </ns0:assignedAuthor>
+                            </ns0:author>
+                        </ns0:substanceAdministration>
+                    </ns0:entry>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.7.1" />
+                    <ns0:code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROCEDURES" />
+                    <ns0:title>PROCEDURES</ns0:title>
+                    <ns0:text>
+                        <ns0:content ID="NKN_procedure">No Information</ns0:content>
+                    </ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.3.1" />
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.3.1" />
+                    <ns0:code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Results" />
+                    <ns0:title>RESULTS</ns0:title>
+                    <ns0:text>
+                        <ns0:content ID="NKN_results">No Results</ns0:content>
+                    </ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.12" />
+                    <ns0:code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR VISIT" />
+                    <ns0:title>REASON FOR VISIT</ns0:title>
+                    <ns0:text>EDarrenR-Darrenig, EDarrenR-Darrenig, OV15, EDarrenR-Darrenig, OV15, EDarrenR-Darrenig, NP  , EDarrenR-Darrenig</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.60" />
+                    <ns0:code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals" />
+                    <ns0:title>Goals Section</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.58" />
+                    <ns0:code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document" />
+                    <ns0:title>Health Concerns</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.23" />
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.23" />
+                    <ns0:code code="46264-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Darrenedical Equipment" />
+                    <ns0:title>DarrenEDICAL EQUIPDarrenENT</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.56" />
+                    <ns0:code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="DarrenENTAL STATUS" />
+                    <ns0:title>DarrenENTAL STATUS</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.14" />
+                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.14" />
+                    <ns0:code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional Status" />
+                    <ns0:title>FUNCTIONAL STATUS</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section nullFlavor="NI">
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.8" />
+                    <ns0:code code="51848-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Assessments" />
+                    <ns0:title>ASSESSDarrenENTS</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+            <ns0:component>
+                <ns0:section>
+                    <ns0:templateId root="2.16.840.1.113883.10.20.22.2.10" />
+                    <ns0:templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.10" />
+                    <ns0:code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Plan of Treatment" />
+                    <ns0:title>PLAN OF TREATDarrenENT</ns0:title>
+                    <ns0:text>No Information</ns0:text>
+                </ns0:section>
+            </ns0:component>
+        </ns0:structuredBody>
+    </ns0:component>
+</ns0:ClinicalDocument>
