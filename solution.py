@@ -47,8 +47,10 @@ def xml2json(file):
 
 if __name__ == "__main__" :
 
-    # parse the given xml file into the program
-    screenXML('sample.xml')
+    # Change file name here
+    fileName = 'sample.xml'
+    
+    screenXML(fileName)
     print("XML screening completed. Screened file can be found in solution.xml")
     xml2json('solution.xml')
     print("Json convertion completed. Json file can be found in solution.json")
